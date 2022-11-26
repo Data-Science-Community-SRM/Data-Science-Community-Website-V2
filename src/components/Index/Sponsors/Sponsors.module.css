@@ -1,0 +1,32 @@
+.main h1 {
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 22px;
+  font-size: 50px;
+}
+
+@media (max-width: 992px) {
+  .main h1 {
+    font-size: 30px;
+  }
+  .sponsors img {
+    filter: none !important;
+  }
+}
+.sponsors div {
+  transition: all 0.3s ease-in !important;
+  color: #666666;
+  font-weight: 700;
+}
+.sponsors img {
+  filter: grayscale(100%);
+}
+
+.sponsors img:hover {
+  filter: none;
+}
+
+.sponsors div div:hover {
+  color: #6f389f;
+  transform: translateY(-20px) scale(1.15);
+}
