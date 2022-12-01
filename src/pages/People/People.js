@@ -62,7 +62,7 @@ class People extends Component {
                     <div className="row text-center d-block">
                         <h3 style={{ fontWeight: "700" }}>
                             <span style={{ color: "#6F389F" }}>T</span>ECHNICAL{" "}
-                            <span style={{ color: "#6F389F" }}>T</span>EAM.
+                            <span style={{ color: "#6F389F" }}>S</span>UPERVISORS.
                         </h3>
                     </div>
                     <br />
@@ -103,8 +103,8 @@ class People extends Component {
                     <hr /> */}
                     <div className="row text-center d-block">
                         <h3 style={{ fontWeight: "700" }}>
-                            <span style={{ color: "#6F389F" }}>M</span>ANAGEMENT{" "}
-                            <span style={{ color: "#6F389F" }}>T</span>EAM.
+                            <span style={{ color: "#6F389F" }}>C</span>ORPORATE{" "}
+                            <span style={{ color: "#6F389F" }}>S</span>UPERVISORS.
                         </h3>
                     </div>
                     <br />
