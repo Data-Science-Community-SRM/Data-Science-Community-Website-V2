@@ -27,12 +27,76 @@ export const board = [
     linkedin: "pushkar-tuse/",
   },
   {
+    fname: "Aryan Raj",
+    lname: "Raj",
+    role: "TECHNICAL DIRECTOR",
+    image: "AryanRaj.jpg",
+    github: "aryanraj2713",
+    linkedin: "https://www.linkedin.com/in/aryanraj13/",
+  },
+  {
+    fname: "Sai Satya ",
+    lname: "Narayana",
+    role: "TECHNICAL DIRECTOR",
+    image: "sai.jpg",
+    github: "SaiSatya16",
+    linkedin: "https://www.linkedin.com/in/sai-satya-jonnalagadda-157900225/",
+  },
+  {
     fname: "Pouravi",
     lname: "Pawar",
     role: "CORPORATE DIRECTOR",
     image: "uraviPawar.jpeg",
     github: "",
     linkedin: "pouravi-pawar-6918aa251/",
+  },
+  {
+    fname: "Aditya",
+    lname: " Achuthan",
+    role: "CORPORATE DIRECTOR",
+    image: "Aditya.jpg",
+    mail: "ak8421@srmist.edu.in",
+    linkedin: "https://www.linkedin.com/in/aditya-achuthan-83abb0220/",
+  },
+  {
+    fname: "Siddharth    ",
+    lname: "Singh",
+    role: " ASSOC. CORPORATE DIRECTOR",
+    image: "Siddharth.jpeg",
+    mail: "siddharth77work@gmail.com",
+    linkedin: "https://www.linkedin.com/in/siddharth-singh-aa9453260",
+  },
+  {
+    fname: "Zainab ",
+    lname: "Zaiba",
+    role: "CREATIVES DIRECTOR",
+    image: "Zainab.jpg",
+    mail: "xynab.02@gmail.com",
+    linkedin: "https://in.linkedin.com/in/xynab-zander-35421b285",
+  },
+  {
+    fname: "Parth ",
+    lname: "Bhargava",
+    role: "CREATIVES DIRECTOR",
+    image: "Parth.jpg",
+    mail: "pb3958@srmist.edu.in",
+    linkedin: "https://www.linkedin.com/in/parth-bhargava-ba7118249/",
+  },
+  {
+    fname: "Viknesh",
+    lname: "S",
+    role: "RESEARCH DIRECTOR",
+    image: "Viknesh.jpeg",
+    github:"VIKNESH1211",
+    linkedin: "https://www.linkedin.com/in/viknesh-s-2a20a9218/",
+  },
+  {
+    fname: "Zayed Syed",
+    lname: "Haque",
+    role: "PROJECTS DIRECTOR",
+    image: "Zayed.jpg",
+    github:"zayed-haque",
+    linkedin: "https://www.linkedin.com/in/zayed-haque/",
   },
 ];
 
@@ -298,17 +362,34 @@ export const techmembers = [
     github: "AnimeshR22",
     linkedin: "https://www.linkedin.com/in/animesh-raj-631646226/",
   },
+  {
+    fname: "Vaishnav MK",
+    lname: "MK",
+    role: "Research Supervisor",
+    image: "vaishnav.jpg",
+    github: "vaishnav-mk",
+    linkedin: "https://www.linkedin.com/in/vaishnav-mk",
+  },
 ];
 
 export const designmembers = [
-  // {
-  //     fname: "Syed",
-  //     lname: "Amaan Ariz",
-  //     role: "Designer",
-  //     image: "syed.jpg",
-  //     github: "SYEDAMAAN05",
-  //     linkedin: "syed-amaan-430a7b1b2",
-  // },
+  {
+    fname: "R Dheraj",
+    lname: "Krishna",
+    role: "GFX Supervisor",
+    image: "dheeraj.JPG",
+    mail: "dherajrock@gmail.com",
+    linkedin:
+      "https://www.linkedin.com/in/dheraj-krishna-025965256?trk=contact-info",
+  },
+  {
+    fname: "Devi sri Priya ",
+    lname: "Nandepu  ",
+    role: "UI/UX Supervisor",
+    image: "Priya.jpeg",
+    mail: "priyanandepu@gmail.com",
+    linkedin: "https://www.linkedin.com/in/priya-n-502995218",
+  },
 ];
 
 export const mgmtmembers = [
@@ -321,6 +402,15 @@ export const mgmtmembers = [
     linkedin: "https://www.linkedin.com/in/rajeev-daga-21932322b",
   },
   {
+    fname: "Ranga Ananta ",
+    lname: " Vatsalya Rama",
+    role: "Sponsorship Supervisor",
+    image: "ranga.jpg",
+    mail: "anantavatsalyaramaranga@gmail.com",
+    linkedin:
+      "https://www.linkedin.com/in/ananta-vatsalya-rama-ranga-337294251",
+  },
+  {
     fname: "Misha ",
     lname: "Goyal ",
     role: "Content Supervisor",
@@ -329,11 +419,35 @@ export const mgmtmembers = [
     linkedin: "http://linkedin.com/in/misha-goyal-910a28246",
   },
   {
+    fname: "Riya ",
+    lname: "Agarwal ",
+    role: "Content Supervisor",
+    image: "riya.png",
+    mail: "r180503a@gmail.com",
+    linkedin: "https://www.linkedin.com/in/riya-agarwal-013046225/",
+  },
+  {
     fname: "Soham Singh",
     lname: "Thakur",
     role: "Events & PR Supervisor",
     image: "soham.jpg",
     mail: "goyalmisha04@gmail.com",
     linkedin: "http://linkedin.com/in/misha-goyal-910a28246",
+  },
+  {
+    fname: "Ridhi",
+    lname: "Lala",
+    role: "Events & PR Supervisor",
+    image: "ridhi.jpg",
+    mail: "ridhilala0905@gmail.com",
+    linkedin: "https://www.linkedin.com/in/ridhi-lala-056655249",
+  },
+  {
+    fname: "Dev Pratap ",
+    lname: "Singh",
+    role: "Events & PR Supervisor",
+    image: "dev.jpg",
+    mail: "devsogarwal03@gmail.com",
+    linkedin: "https://www.linkedin.com/in/dev-pratap-singh-829885223/",
   },
 ];
