@@ -103,6 +103,13 @@ class People extends Component {
             ))}
           </div>
           <hr />
+
+
+
+
+
+
+
           
 
           <div className="row text-center d-block">
