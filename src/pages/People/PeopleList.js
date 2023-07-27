@@ -27,7 +27,7 @@ export const board = [
     linkedin: "pushkar-tuse/",
   },
   {
-    fname: "Aryan Raj",
+    fname: "Aryan",
     lname: "Raj",
     role: "TECHNICAL DIRECTOR",
     image: "AryanRaj.jpg",
@@ -363,7 +363,7 @@ export const techmembers = [
     linkedin: "https://www.linkedin.com/in/animesh-raj-631646226/",
   },
   {
-    fname: "Vaishnav MK",
+    fname: "Vaishnav",
     lname: "MK",
     role: "Research Supervisor",
     image: "vaishnav.jpg",
