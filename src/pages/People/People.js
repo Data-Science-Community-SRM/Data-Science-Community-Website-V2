@@ -6,6 +6,7 @@ import {
   board,
   advisor,
   techmembers,
+  research,
   designmembers,
   mgmtmembers,
 } from "./PeopleList";
@@ -83,6 +84,29 @@ class People extends Component {
           <hr />
           <div className="row text-center d-block">
             <h3 style={{ fontWeight: "700" }}>
+              <span style={{ color: "#6F389F" }}>C</span>ORPORATE{" "}
+              <span style={{ color: "#6F389F" }}>S</span>UPERVISORS.
+            </h3>
+          </div>
+          <br />
+          <div className="row text-center d-block">
+            {mgmtmembers.map((member) => (
+              <PeopleComponent
+                key={member.fname}
+                fname={member.fname}
+                lname={member.lname}
+                role={member.role}
+                image={member.image}
+                github={member.github}
+                linkedin={member.linkedin}
+              />
+            ))}
+          </div>
+          <hr />
+          
+
+          <div className="row text-center d-block">
+            <h3 style={{ fontWeight: "700" }}>
               <span style={{ color: "#6F389F" }}>C</span>REATIVES{" "}
               <span style={{ color: "#6F389F" }}>S</span>UPERVISORS.
             </h3>
@@ -102,15 +126,16 @@ class People extends Component {
             ))}
           </div>
           <hr />
+
           <div className="row text-center d-block">
             <h3 style={{ fontWeight: "700" }}>
-              <span style={{ color: "#6F389F" }}>C</span>ORPORATE{" "}
+              <span style={{ color: "#6F389F" }}>R</span>ESEARCH{" "}
               <span style={{ color: "#6F389F" }}>S</span>UPERVISORS.
             </h3>
           </div>
           <br />
           <div className="row text-center d-block">
-            {mgmtmembers.map((member) => (
+            {research.map((member) => (
               <PeopleComponent
                 key={member.fname}
                 fname={member.fname}

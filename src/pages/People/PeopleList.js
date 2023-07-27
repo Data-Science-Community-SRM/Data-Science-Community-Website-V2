@@ -1,6 +1,4 @@
-export const presidents = [];
-
-export const board = [
+export const presidents = [
   {
     fname: "Anubhav",
     lname: "Pathak",
@@ -26,6 +24,9 @@ export const board = [
     mail: "pushkar.tuse@gmail.com",
     linkedin: "pushkar-tuse/",
   },
+];
+
+export const board = [
   {
     fname: "Aryan",
     lname: "Raj",
@@ -87,7 +88,7 @@ export const board = [
     lname: "S",
     role: "RESEARCH DIRECTOR",
     image: "Viknesh.jpeg",
-    github:"VIKNESH1211",
+    github: "VIKNESH1211",
     linkedin: "https://www.linkedin.com/in/viknesh-s-2a20a9218/",
   },
   {
@@ -95,7 +96,7 @@ export const board = [
     lname: "Haque",
     role: "PROJECTS DIRECTOR",
     image: "Zayed.jpg",
-    github:"zayed-haque",
+    github: "zayed-haque",
     linkedin: "https://www.linkedin.com/in/zayed-haque/",
   },
 ];
@@ -153,7 +154,7 @@ export const advisor = [
   {
     fname: "Gayathri",
     lname: "Seetharaman",
-    role: "RESEARCH & DEVELOPMENT ADVISOR",
+    role: "R&D ADVISOR",
     image: "gayathri.jpg",
     github: "Gayathri621",
     linkedin: "gayathri-seetharaman-964986158",
@@ -217,7 +218,7 @@ export const advisor = [
   {
     fname: "Aarsh",
     lname: "Chaube",
-    role: "RESEARCH & DEVELOPMENT ADVISOR",
+    role: "R&D ADVISOR",
     image: "aarsh.jpg",
     github: "Aarsh2001",
     linkedin: "aarsh-chaube-0099521a1",
@@ -362,6 +363,8 @@ export const techmembers = [
     github: "AnimeshR22",
     linkedin: "https://www.linkedin.com/in/animesh-raj-631646226/",
   },
+];
+export const research = [
   {
     fname: "Vaishnav",
     lname: "MK",
@@ -371,7 +374,6 @@ export const techmembers = [
     linkedin: "https://www.linkedin.com/in/vaishnav-mk",
   },
 ];
-
 export const designmembers = [
   {
     fname: "R Dheraj",
@@ -383,7 +385,7 @@ export const designmembers = [
       "https://www.linkedin.com/in/dheraj-krishna-025965256?trk=contact-info",
   },
   {
-    fname: "Devi sri Priya ",
+    fname: "Devi Sri Priya ",
     lname: "Nandepu  ",
     role: "UI/UX Supervisor",
     image: "Priya.jpeg",
