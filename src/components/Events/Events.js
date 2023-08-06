@@ -8,7 +8,7 @@ import Rlogo from "../../assets/images/events/Rlogo.png";
 import NeuresLogo from "../../assets/images/events/neures_logo.svg"
 import Carousel from "../UI/Carousel/Carousel";
 import DshackLogo from "../../assets/images/events/DS_Hack_Logo.png"
-
+import shardeum from "../../assets/images/events/shardeum.jpeg"
 const Events = () => {
     return (
         <React.Fragment>
@@ -123,6 +123,38 @@ const Events = () => {
                             </div>
                         </div>
                     </Jumbotron>
+                    
+                    <Jumbotron
+                        data-aos="fade-left"
+                        className={classes.jumbotron + " col-11 col-lg-5 mx-auto"}
+                    >
+                        <div className="text-center">
+                            <img src={shardeum} alt="NeuresLogo" width="50%" className="my-4" />
+                        </div>
+                        <h1 className="display-3">Proof of community</h1>
+                        <hr className="my-2" />
+                        <p className="text-center">
+                            A comprehensive hackathon that focused on analyzing the participant's technical & problem-solving skills in a competitive environment and also the amazing projects.
+                        </p>
+                        <div className="row">
+                            <div className="mx-auto col-6">
+                                <Button
+                                    className={classes.certBTN + " col-12"}
+                                    onClick={() => window.open("https://drive.google.com/drive/folders/1G1pkDjrlphGvTnbCti8brDzlNHMnMgR-")}
+                                >
+                                    Certificates
+                                </Button>
+                            </div>
+                            <div className="mx-auto col-6">
+                                <Button
+                                    className={classes.galleryBTN + " col-12"}
+                                    onClick={() => window.open("https://drive.google.com/drive/folders/1Wf4GO0TsMEbJDt31p9j0a16YFNWw7fC_?usp=sharing")}
+                                >
+                                    Gallery
+                                </Button>
+                            </div>
+                        </div>
+                    </Jumbotron> 
                     <Jumbotron
                         data-aos="fade-right"
                         className={classes.jumbotron + " col-11 col-lg-5 mx-auto"}
@@ -149,8 +181,7 @@ const Events = () => {
                                 </Button>
                             </div>
                         </div>
-                    </Jumbotron>
-
+                    </Jumbotron>            
                 </div>
                 <hr />
                 <div className="my-5">
