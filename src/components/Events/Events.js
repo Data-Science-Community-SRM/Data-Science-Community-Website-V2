@@ -53,7 +53,7 @@ const Events = () => {
                   className={classes.galleryBTN + " col-12"}
                   onClick={() =>
                     window.open(
-                      "https://drive.google.com/drive/folders/1HSl_hKY56Gpil33SBdh3aFAsWtv7nbEs"
+                      "https://drive.google.com/drive/u/1/folders/1YBb3DxoTURNBcGHSw16Erjv0tFmgeeQl"
                     )
                   }
                 >
