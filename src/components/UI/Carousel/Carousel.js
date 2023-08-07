@@ -8,6 +8,9 @@ import fourth from "../../../assets/images/carousel/4.JPG";
 import dshack1 from "../../../assets/images/carousel/dshack1.jpg";
 import dshack2 from "../../../assets/images/carousel/dshack2.jpg";
 import dshack3 from "../../../assets/images/carousel/dshack3.jpg";
+import shardeum1 from "../../../assets/images/carousel/Shardeum1.jpg";
+import shardeum2 from "../../../assets/images/carousel/shardeum2.jpg";
+import shardeum3 from "../../../assets/images/carousel/shardeum3.jpg";
 
 
 import "./Carousel.css";
@@ -15,6 +18,66 @@ import "./Carousel.css";
 const CarouselEvents = () => {
     return (
         <Carousel autoPlay showArrows={true}>
+             <div>
+                <img src={shardeum1} alt="shardeum1" />
+                <p
+                    className="legend d-none d-sm-block"
+                    style={{
+                        backgroundColor: "#232323",
+                        fontWeight: "400",
+                        textTransform: "uppercase",
+                        fontSize: "12px",
+                    }}
+                >
+                    Proof of Community 2023 <br />
+                    <span
+                        className="text-muted"
+                        style={{ fontWeight: "700", fontSize: "10px" }}
+                    >
+                        30TH JANUARY, 2023
+                    </span>
+                </p>
+            </div>
+            <div>
+                <img src={shardeum2} alt="shardeum2" />
+                <p
+                    className="legend d-none d-sm-block"
+                    style={{
+                        backgroundColor: "#232323",
+                        fontWeight: "400",
+                        textTransform: "uppercase",
+                        fontSize: "12px",
+                    }}
+                >
+                    Proof of Community 2023 <br />
+                    <span
+                        className="text-muted"
+                        style={{ fontWeight: "700", fontSize: "10px" }}
+                    >
+                        30TH JANUARY, 2023
+                    </span>
+                </p>
+            </div>
+            <div>
+                <img src={shardeum3} alt="shardeum3" />
+                <p
+                    className="legend d-none d-sm-block"
+                    style={{
+                        backgroundColor: "#232323",
+                        fontWeight: "400",
+                        textTransform: "uppercase",
+                        fontSize: "12px",
+                    }}
+                >
+                    Proof of Community 2023 <br />
+                    <span
+                        className="text-muted"
+                        style={{ fontWeight: "700", fontSize: "10px" }}
+                    >
+                        30TH JANUARY, 2023
+                    </span>
+                </p>
+            </div>
             <div>
                 <img src={dshack1} alt="dshack1" />
                 <p
