@@ -155,13 +155,13 @@
   width: calc((100% - 32px) / 3);
 }
 
+/* Add your custom styles for the selected slide here */
 .carousel-slide.selected {
-  /* Add your custom styles for the selected slide here */
   transform: scale(1.2);
 }
 
+/* Add your custom styles for the previous slide here */
 .carousel-slide.previous {
-  /* Add your custom styles for the previous slide here */
   transform: scale(0.8);
 }
 
@@ -214,44 +214,25 @@
   }
 }
 
-@media only screen and (max-width: 782px) {
-  .card-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    align-items: center;
-    margin: 0px;
+
+
+@media (min-width: 426px) {
+  .carousel .slider-wrapper {
+    margin: 0 20px; /* Adjust the margin value to increase/decrease the space */
+  }}
+  .arrowPrev {
+    left: 5px;
+    z-index: 20;
   }
-  .cardsPlacement {
-    display: flex;
-    flex-direction: column;
+  
+  .arrowNext {
+    right: 5px;
+    z-index: 20;
   }
 
-  /* carousel */
-  .projectcard {
-    margin-left: 0rem;
-    margin-right: 0rem;
-    position: relative;
-  }
-  .projectcard .slide {
-    min-width: 100% !important;
-  }
-  .projectcard .carousel .slide {
-    /* perspective: 1000px; */
-    /* width: 80%; */
-    /* transform: scale(0.8); */
-    padding: 0rem;
-  }
-  .carousel-slide {
-    margin-right: 0px;
-    width: 100%;
-  }
-  .projectcard .carousel .slider-wrapper {
-    /* perspective: 1000px; */
-    width: 80%;
-  }
-}
+
+
+
 @media only screen and (max-width: 320px) {
   .cardcat {
     margin-top: 8rem;
@@ -259,4 +240,26 @@
     margin-right: 0.2rem;
     margin-bottom: 7rem;
   }
+  .projectcard{
+    margin: 1px;
+  }
+
+  
+  
+    .carousel-slide {
+      width: 100%;
+    }
+  
+
+  .arrowPrev {
+    left: 1px;
+    z-index: 20;
+  }
+  
+  .arrowNext {
+    right: 1px;
+    z-index: 20;
+  }
 }
+ 
+

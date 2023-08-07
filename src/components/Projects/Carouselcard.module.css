@@ -1,6 +1,18 @@
 .container{
     background-color: #6F389F;
     border-radius: 10px;
+    padding: 1rem;
+    
+   
+
+}
+.background_image{
+    border-radius: 10px;
+    background-image: url('https://www.ntaskmanager.com/wp-content/uploads/2021/01/IT-Project-management.jpg.webp');
+    background-size: cover; 
+    /* Make the image fully cover the container */
+    background-position: center; 
+    /* Center the image within the container */
 }
 
 
@@ -36,18 +48,14 @@
     /* align-items: center; */
     /* margin: 10px; */
 }
-.upper img{
-    /* padding-top: 0.5rem; */
-    border-radius: 5px;
 
-    height: 15rem;
-    width: 15rem;
-}
 .lower{
+    margin-top: 4rem;
     display: flex;
     flex-direction: column;
-    /* justify-content: flex-start; */
+    
     align-items: flex-start;
+    flex-shrink: 0;
 
 }
 .title{
@@ -57,6 +65,7 @@
 }
 .title h1{
     font-size: 1.9rem;
+    color: black;
    
 }
 .description{
@@ -68,4 +77,140 @@
     font-size:1.3rem;
     text-align: left;
     padding-bottom: 0.5rem;
+    color: black;
 }
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 1024px) {
+    .card {
+      height: 25rem;
+    }
+ 
+  
+    .title h1 {
+      font-size: 1.6rem;
+    }
+  
+    .description h3 {
+      font-size: 1.1rem;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .card {
+      height: 20rem;
+      position: relative;
+    }
+
+    .lower {
+        position: absolute;
+        left: 1rem;
+        width:112%; /* Reduce the width for smaller screens */
+        font-size: 1.1rem; /* Reduce font size for smaller screens */
+      }
+  
+   
+  
+    .title h1 {
+      font-size: 1.1rem;
+    }
+  
+    .description{
+        margin-top: 1rem;
+
+    }
+    .description h3 {
+      font-size: 1rem;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+
+    .card {
+      height: 15rem;
+      /* padding: 4rem; */
+    }
+    .info_icon svg{
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+    .lower {
+
+        width: 120%; /* Reduce the width for smaller screens */
+        font-size: 1.1rem; /* Reduce font size for smaller screens */
+        justify-content: flex-start;
+      }
+  
+    
+  
+    .title h1 {
+      font-size: 1rem;
+    }
+  .description{
+      margin-top: 0rem;}
+
+    .description h3 {
+      font-size: 0.8rem;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+
+    .card {
+      height: 15rem;
+      /* padding: 4rem; */
+    }
+    .info_icon svg{
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+    .lower {
+
+        width: 120%; /* Reduce the width for smaller screens */
+        font-size: 1.1rem; /* Reduce font size for smaller screens */
+        justify-content: flex-start;
+      }
+  
+    
+  
+    .title h1 {
+      font-size: 1rem;
+    }
+  .description{
+      margin-top: 0rem;}
+
+    .description h3 {
+      font-size: 0.8rem;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+
+    .card {
+      height: 15rem;
+      /* padding: 4rem; */
+    }
+    .info_icon svg{
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+    .lower {
+
+        width: 120%; /* Reduce the width for smaller screens */
+        font-size: 1.1rem; /* Reduce font size for smaller screens */
+        justify-content: flex-start;
+      }
+  
+    
+  
+    .title h1 {
+      font-size: 1rem;
+    }
+  .description{
+      margin-top: 0rem;}
+
+    .description h3 {
+      font-size: 0.8rem;
+    }
+  }
+
