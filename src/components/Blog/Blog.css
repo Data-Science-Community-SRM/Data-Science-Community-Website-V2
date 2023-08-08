@@ -2,6 +2,19 @@
   display: flex;
   margin-top: 10%;
 }
+@media (max-width: 35em) {
+  .cards{
+    display: flex;
+    flex-direction: column;
+    flex: 100%;
+    margin: 5%;
+    padding: auto;
+    
+  }
+  .card-elements{
+    margin: 10%;
+  }
+}
 
 .card-elements {
    position: relative;
