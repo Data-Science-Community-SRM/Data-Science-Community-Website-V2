@@ -1,0 +1,85 @@
+[
+    {   "index":1,
+        "title":"Resourceify",
+        "description":"A curated list of everything you need in the field of Data Science, Machine Learning, and Artificial Intelligence including but not limited to Online Courses, Documentations, Blogs, Podcasts, Cheatsheets, research papers, latest developments etc.. arranged in sub-domains and further by the language or framework being used.",
+        "repo_link":"https://github.com/Data-Science-Community-SRM/Resourceify",
+        "deployed_link":"https://data-science-community-srm.github.io/Resourceify/",
+        "image":"https://www.ntaskmanager.com/wp-content/uploads/2021/01/IT-Project-management.jpg.webp"
+
+
+    },
+    {   "index":2,
+        "title":"Forecasting-US-ElectionsResourceify",
+        "description":"Extraction of tweets and Perform sentiment analysis on the presidential candidature of Donald Trump, Joe Biden and Kanye West in the upcoming elections in US in November, 2020.",
+        "repo_link":"https://github.com/Data-Science-Community-SRM/Forecasting-US-Elections",
+        "deployed_link":"N/A",
+        "image":"https://www.ntaskmanager.com/wp-content/uploads/2021/01/IT-Project-management.jpg.webp"
+
+
+    },
+    {   "index":3,
+        "title":"Conjexure-A-Web-App-for-Stock-Market-Forecasting",
+        "description":"Conjexure is a machine learning web app for forecasting the stock prices of certain companies into the future.",
+        "repo_link":"https://github.com/Data-Science-Community-SRM/Conjexure-A-Web-App-for-Stock-Market-Forecasting",
+        "deployed_link":"N/A",
+        "image":"https://www.ntaskmanager.com/wp-content/uploads/2021/01/IT-Project-management.jpg.webp"
+
+
+    },
+    {   "index":4,
+        "title":"Food-Recommendation-System",
+        "description":"This is a machine learning web app, which when executed, the client gets to choose a food item based on his own liking, and we recommend 10 more such similar foods through our recommendation system.",
+        "repo_link":"https://github.com/Data-Science-Community-SRM/Food-Recommendation-System",
+        "deployed_link":"N/A",
+        "image":"https://www.ntaskmanager.com/wp-content/uploads/2021/01/IT-Project-management.jpg.webp"
+
+
+    },
+    {   "index":5,
+        "title":"Algorithms-for-Programming",
+        "description":"A collection of most useful Data Structures and Algorithms implemented in various languages",
+        "repo_link":"https://github.com/Data-Science-Community-SRM/Algorithms-for-Programming",
+        "deployed_link":"N/A",
+        "image":"https://www.ntaskmanager.com/wp-content/uploads/2021/01/IT-Project-management.jpg.webp"
+
+
+    },
+    {   "index":6,
+        "title":"Hand-Gesture-Recognition-Rock-Paper-Scissor",
+        "description":"Hand Gesture Recognition and Modification was based on transfer learning Inception v3 model using Keras with Tensorflow backend trained on 4 classes - rock, paper, scissors, and nothing hand signs. The final trained model resulted in an accuracy of 97.05%. The model was deployed using Streamlit on Heroku Paas.",
+        "repo_link":"https://github.com/Data-Science-Community-SRM/Hand-Gesture-Recognition-Rock-Paper-Scissor",
+        "deployed_link":"N/A",
+        "image":"https://www.ntaskmanager.com/wp-content/uploads/2021/01/IT-Project-management.jpg.webp"
+
+
+    },
+    {   "index":7,
+        "title":"Awesome-Jupyter-Notebooks",
+        "description":"A collection of amazing Jupyter Notebooks with insightful projects/ideas under various domains of Data Science and Machine Learning.",
+        "repo_link":"https://github.com/Data-Science-Community-SRM/Awesome-Jupyter-Notebooks",
+        "deployed_link":"N/A",
+        "image":"https://www.ntaskmanager.com/wp-content/uploads/2021/01/IT-Project-management.jpg.webp"
+
+
+    },
+    {   "index":8,
+        "title":"Music-Genre-Classification-System",
+        "description":"Classify audio into genres.",
+        "repo_link":"https://github.com/Data-Science-Community-SRM/Music-Genre-Classification-System",
+        "deployed_link":"N/A",
+        "image":"https://www.ntaskmanager.com/wp-content/uploads/2021/01/IT-Project-management.jpg.webp"
+
+
+    },
+    {   "index":9,
+        "title":"MoodyCat",
+        "description":"Real-time facial emotions recognizer deployed as a Streamlit application",
+        "repo_link":"https://github.com/Data-Science-Community-SRM/MoodyCat",
+        "deployed_link":"N/A",
+        "image":"https://www.ntaskmanager.com/wp-content/uploads/2021/01/IT-Project-management.jpg.webp"
+
+
+    }
+  
+
+]
