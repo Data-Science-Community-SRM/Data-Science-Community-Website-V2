@@ -1,57 +1,76 @@
 import React from "react";
-import box from "../../assets/images/blog/box.png"
-import bc from "../../assets/images/blog/bc.png"
-import ai from "../../assets/images/blog/ai.png"
-import web from "../../assets/images/blog/web.png"
-// import { Button } from "reactstrap";
-
 import "./Blog.css";
+import bc from "../../assets/images/blog/bc.png";
+import ai from "../../assets/images/blog/ai.png";
+import web from "../../assets/images/blog/web.png";
 
-const Blog = () => {
-  // useEffect(() => {
-  //     // try {
-  //     //   var widget = document.getElementById("medium-widget");
-  //     //   if (!!widget) {
-  //     //     window.mediumWidget();
-  //     //   }
-  //     // } catch (e) {
-  //     //   window.location.reload();
-  //     // }
-  // }, []);
+const categories = [
+  {
+    title: "Web Development",
+    tag: "web-development",
+    description: "Explore the latest trends and techniques in web development.",
+    image: web,
+  },
+  {
+    title: "Data Science",
+    tag: "data-science",
+    description: "Dive into the world of data science and analytics.",
+    image: ai,
+  },
+  {
+    title: "Blockchain",
+    tag: "blockchain",
+    description: "Discover the revolutionary technology behind blockchain.",
+    image: bc,
+  },
+];
 
+const Card = ({ imageSrc, title, description }) => {
   return (
-    <React.Fragment>
-      <div className="col-12 col-lg-9 mx-auto">
-        <h1 data-aos="zoom-in-up" style={{ marginTop: "120px" }}>
-          DataX
-        </h1>
-        <hr/>
-        {/*<p style={{ margin: "30px auto" }}>
-                    A Multidisciplinary Tech Journal sharing codes, concepts, experiences,
-                    and views.
-                </p>
-                <a href="https://medium.com/data-science-community-srm">
-                    <Button dark outline className="btnPublication">
-                        Publication Link
-                    </Button>
-                </a>
-                <hr />*/}
-        <div className="cards">
-            <div className="card-elements" onClick={()=>window.open("https://medium.com/data-science-community-srm/tagged/blockchain")}>
-                <img src={box} className="box" alt="box"></img>
-                <img src={bc } className="card" alt="card"></img>
-            </div>
-            <div className="card-elements" onClick={()=>window.open("https://medium.com/data-science-community-srm/tagged/data-science")}>
-                <img src={box} className="box" alt="box"></img>
-                <img src={ai} className="card" alt="card"></img>
-            </div>
-            <div className="card-elements" onClick={()=>window.open("https://medium.com/data-science-community-srm/tagged/web-development")}>
-                <img src={box} className="box" alt="box"></img>
-                <img src={web} className="card" alt="card"></img>
-            </div>
+    <div className="flip-card">
+      <div className="flip-card-inner">
+        <div className="flip-card-front">
+          <img src={imageSrc} className="box" alt="box" />
+          <h2>{title} Blogs</h2>
+        </div>
+        <div className="flip-card-back">
+          <img src={imageSrc} className="box" alt="box" />
+          <h2>{title}</h2>
+          <p>{description}</p>
+          <button className="view-more-button">Read Blogs</button>
         </div>
       </div>
-    </React.Fragment>
+    </div>
+  );
+};
+
+const Blog = () => {
+  return (
+    <div className="col-12 col-lg-9 mx-auto">
+      <h1 data-aos="zoom-in-up" style={{ marginTop: "120px" }}>
+        DataX Journal Blogs
+      </h1>
+      <hr />
+      <div className="cards">
+        {categories.map((category, index) => (
+          <div
+            key={index}
+            className="card-elements"
+            onClick={() =>
+              window.open(
+                `https://medium.com/data-science-community-srm/tagged/${category.tag}`
+              )
+            }
+          >
+            <Card
+              imageSrc={category.image}
+              title={category.title}
+              description={category.description}
+            />
+          </div>
+        ))}
+      </div>
+    </div>
   );
 };
 
