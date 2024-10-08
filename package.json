@@ -11,6 +11,8 @@
     "axios": "^0.19.2",
     "bootstrap": "^4.5.0",
     "formik": "^2.1.4",
+    "framer-motion": "^4.1.17",
+    "lucide-react": "^0.451.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.6.3",
     "react-dom": "^16.13.1",
@@ -19,6 +21,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.1",
     "reactstrap": "^8.4.1",
+    "styled-components": "^6.1.13",
     "yup": "^0.29.1"
   },
   "scripts": {
@@ -27,7 +30,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://localhost:4220",
+  "proxy": "http://localhost:3000",
   "browserslist": {
     "production": [
       ">0.2%",
@@ -39,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
   }
 }

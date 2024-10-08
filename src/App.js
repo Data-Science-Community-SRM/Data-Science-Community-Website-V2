@@ -7,6 +7,7 @@ import Home from "./pages/Home/Home";
 import Spinner from "./components/UI/Spinner/Spinner";
 import NotFound from "./components/Notfound/NotFound";
 import Redirecting from "./components/Redirecting/Redirecting";
+import RecruitmentLightbox from "./components/lightbox";
 import { ThemeContext } from "./context/theme-context.js";
 const Events = React.lazy(() => import("./pages/Events/Events"));
 const Blog = React.lazy(() => import("./pages/Blog/Blog"));
@@ -19,6 +20,7 @@ const App = () => {
     AOS.init();
   });
 
+
   const themeContext = useContext(ThemeContext);
 
   if (themeContext.isDark) {
@@ -28,6 +30,7 @@ const App = () => {
   }
 
   let redirects = (
+
     <>
       <Route
         exact
@@ -116,6 +119,7 @@ const App = () => {
     <React.Fragment>
       <div style={{ position: "relative", minHeight: "100vh" }}>
         {redirects}
+          <RecruitmentLightbox />
         <Switch>
           <Route
             path="/contact-us"
@@ -133,6 +137,7 @@ const App = () => {
               </Suspense>
             )}
           />
+
           <Route
             path="/blog"
             render={() => (
