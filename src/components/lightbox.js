@@ -16,8 +16,8 @@ const LightboxOverlay = styled(motion.div)`
 
 const LightboxContent = styled(motion.div)`
     background: linear-gradient(135deg, #1f1f1f, #3d007b);
-    border-radius: 1rem;
-    padding: 2rem;
+    border-radius: 2rem;
+    padding: 4rem;
     max-width: 90%;
     width: 100%;
     max-height: 90vh;
@@ -35,8 +35,9 @@ const LightboxContent = styled(motion.div)`
 const CloseButton = styled.button`
     position: absolute;
     top: 0.5rem;
+    border-radius: 1rem;
     right: 0.5rem;
-    color: #9ca3af;
+    color: #db2777 ;
     &:hover {
         color: white;
     }
@@ -113,7 +114,7 @@ const RecruitmentLightbox = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     useEffect(() => {
-        const timer = setTimeout(() => setIsOpen(true), 2000);
+        const timer = setTimeout(() => setIsOpen(true), 1000);
         return () => clearTimeout(timer);
     }, []);
 
@@ -178,7 +179,7 @@ const RecruitmentLightbox = () => {
                             <ApplyButton
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
-                                onClick={() => window.open('https://apply.dscommunity.in', '_blank')}
+                                onClick={() => window.open('https://apply.dscommunity.in')}
                             >
                                 Apply Now <ChevronRight style={{ display: 'inline', marginLeft: '0.5rem' }} size={18} />
                             </ApplyButton>
@@ -191,3 +192,6 @@ const RecruitmentLightbox = () => {
 };
 
 export default RecruitmentLightbox;
+
+
+// onClick={() => setIsOpen(false)
