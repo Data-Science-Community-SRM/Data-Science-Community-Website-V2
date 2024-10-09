@@ -17,7 +17,7 @@ const LightboxOverlay = styled(motion.div)`
 const LightboxContent = styled(motion.div)`
     background: linear-gradient(135deg, #1f1f1f, #3d007b);
     border-radius: 2rem;
-    padding: 4rem;
+    padding: 2rem;
     max-width: 90%;
     width: 100%;
     max-height: 90vh;
